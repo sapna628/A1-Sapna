@@ -1,0 +1,12 @@
+#gridArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "content image";
+}
+
+body {
+  background-color: lightblue;
+  border: 5px solid pink;
+}

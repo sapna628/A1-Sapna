@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/jquery.js"></script>
+
+	<script src="javascript/approval.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header id = "header"></header>
+    <div id="gridArea">
+        <div id = "content">
+            <label id = "cInfo"></label><br />
+            <label id = "borwAmt_payment"></label><br />
+            <label id = "interest"></label><br />
+            <label id = "payment"></label><br />
+            <label id = "profit"></label><br />
+            <label for = "decision"></label>
+            <select name="decision" id="decision">
+                <option value="accept">Accept</option>
+                <option value="reject">Reject</option>
+                <option value="needMoreInfo">Need more information</option>
+            </select><br /><br />
+            <button onclick = "upload()" type="button">Click to Submit</button>
+            <footer id = "footer"></footer>
+        </div>
+        <div id = "image">
+            <img src="images/me.jpeg" height="300" width="300"><br />
+            <label>Sales Representative: Sapna</label>
+        </div>
+
+    </div>
+</body>
+</html>
